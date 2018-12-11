@@ -13,7 +13,7 @@ public class ReadTest {
         long start = System.currentTimeMillis();
 
         EngineRace engine = new EngineRace();
-        engine.open("/tmp/kiritoDB");
+        engine.open("/Users/lay/dev/workSpace/java/kiritoDB/data");
         int len = 64000;
         byte[] hashByte = new byte[Byte.MAX_VALUE - Byte.MIN_VALUE + 1];
         byte now = Byte.MIN_VALUE;

@@ -23,7 +23,7 @@ public class WriteTest {
 
         // 打开引擎
         final EngineRace engine = new EngineRace();
-        engine.open("/tmp/kiritoDB");
+        engine.open("/Users/lay/dev/workSpace/java/kiritoDB/data");
         write(executor, engine, 0);
         ((ExecutorService) executor).shutdownNow();
 

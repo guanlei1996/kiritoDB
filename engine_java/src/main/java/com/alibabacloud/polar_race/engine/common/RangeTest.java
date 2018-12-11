@@ -12,7 +12,7 @@ public class RangeTest {
     public void test() throws EngineException {
         long start = System.currentTimeMillis();
         final EngineRace engine = new EngineRace();
-        engine.open("/tmp/kiritoDB");
+        engine.open("/Users/lay/dev/workSpace/java/kiritoDB/data");
 
 
         Thread[] threads = new Thread[64];

@@ -10,7 +10,7 @@ import java.io.File;
  */
 public class EngineTest {
     public static void main(String[] args) throws EngineException {
-        File file = new File("/tmp/kiritoDB");
+        File file = new File("/Users/lay/dev/workSpace/java/kiritoDB/data");
         deleteDir(file);
         new WriteTest().test();
         new ReadTest().test();
